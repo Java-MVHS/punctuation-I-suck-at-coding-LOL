@@ -135,7 +135,7 @@ public class Punctuation
     public boolean checkForPunctuation(String word) 
     {
         String punctuationMarks = ",.!?;:()\"'";
-		char currentChar;
+	char currentChar;
         // go through each character
         for (int i = 0; i < word.length(); i++) 
         {
