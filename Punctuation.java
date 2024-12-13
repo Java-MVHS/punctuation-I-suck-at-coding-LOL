@@ -44,7 +44,7 @@ public class Punctuation
     // Method to search for punctuation-containing words and print them
     public void searchIt(String text) 
     {
-        System.out.println("\n\n\n");
+        System.out.print("\n\n\n");
         // Get words with punctuation
         String punctuationWords = getPunctuationWords(text);
         
